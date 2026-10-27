@@ -3,6 +3,7 @@ public class TestBook {
         Author a = new Author( "Kiko Rivera", "kikoelperiko@email.com", 'm' );
 
         Book jungleBook = new Book( "jungle book", a, 10.99, 500);
+        System.out.println(jungleBook);
 
     }
 }

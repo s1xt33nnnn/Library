@@ -44,6 +44,7 @@ public class Book {
         this.qtyInStock = qtyInStock;
     }
 
+
     @Override
     public String toString() {
         return title + " by " + author.toString();
